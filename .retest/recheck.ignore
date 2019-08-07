@@ -1,0 +1,19 @@
+# Ignore file for recheck. Please do not delete, even if it is empty.
+
+# You can ignore specific attributes like so: 
+# matcher: retestid=div-b4f23, attribute: font.*
+
+# To ignore whole subtrees, use e.g. XPath:
+# matcher: xpath=HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]
+
+# To ignore attributes globally, use:
+# attribute=class
+
+# More details and examples can be found here:
+# https://retest.github.io/docs/recheck/how-ignore-works/
+matcher: xpath=html[1], attribute: class
+matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1], attribute: href
+matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/a[1], attribute: href
+matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/form[1], attribute: action
+matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/form[1]/div[3]/div[2]/span[1]/a[1], attribute: href
+matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1], attribute: href
