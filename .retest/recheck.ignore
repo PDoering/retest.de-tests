@@ -11,7 +11,17 @@
 
 # More details and examples can be found here:
 # https://retest.github.io/docs/recheck/how-ignore-works/
-matcher: xpath=html[1], attribute: class
+
+# Ignore non-visible attributes:
+attribute=class
+attribute=ping
+attribute-regex=data-.*
+attribute=jsdata
+attribute=jsaction
+attribute=cd_frame_id_
+
+# Ignore pixel diffs up to 5 pixels:
+pixel-diff=5.0
 matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1], attribute: href
 matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/a[1], attribute: href
 matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/form[1], attribute: action
