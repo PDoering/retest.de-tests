@@ -179,7 +179,7 @@
 							</entry>
 						</attributes>
 					</attributes>
-					<containedElements retestId="div-50c29">
+					<containedElements retestId="div-70fd3">
 						<identifyingAttributes>
 							<attributes>
 								<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -276,7 +276,7 @@
 								</entry>
 							</attributes>
 						</attributes>
-						<containedElements retestId="div-f7757">
+						<containedElements retestId="div-46633">
 							<identifyingAttributes>
 								<attributes>
 									<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -305,7 +305,7 @@
 									</entry>
 								</attributes>
 							</attributes>
-							<containedElements retestId="div-3b69c">
+							<containedElements retestId="div-fbab9">
 								<identifyingAttributes>
 									<attributes>
 										<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -334,7 +334,7 @@
 										</entry>
 									</attributes>
 								</attributes>
-								<containedElements retestId="div-41584">
+								<containedElements retestId="div-37d95">
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -364,7 +364,7 @@
 											</entry>
 										</attributes>
 									</attributes>
-									<containedElements retestId="div-4390c">
+									<containedElements retestId="div-8a504">
 										<identifyingAttributes>
 											<attributes>
 												<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -578,7 +578,7 @@
 															</entry>
 															<entry>
 																<key>href</key>
-																<value xsi:type="xsd:string">/auth/realms/customer/broker/bitbucket/login?client_id=garkbit&amp;tab_id=xnAK34sXMkM&amp;session_code=NM69M7_brjGVFmV0p45gA7f-jjCQUFCM6XR7vwh2ww0</value>
+																<value xsi:type="xsd:string">/auth/realms/customer/broker/bitbucket/login?client_id=garkbit&amp;tab_id=9gmZIgChFWM&amp;session_code=1b0Te74JOp1EEgMXnupOtSBB0LPK8JDPyUKkz1tnaMk</value>
 															</entry>
 															<entry>
 																<key>line-height</key>
@@ -646,7 +646,7 @@
 													</containedElements>
 												</containedElements>
 											</containedElements>
-											<containedElements retestId="li-c7639">
+											<containedElements retestId="li-aa015">
 												<identifyingAttributes>
 													<attributes>
 														<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -679,7 +679,7 @@
 														</entry>
 													</attributes>
 												</attributes>
-												<containedElements retestId="a-2b0b4">
+												<containedElements retestId="a-6db1c">
 													<identifyingAttributes>
 														<attributes>
 															<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -745,7 +745,7 @@
 															</entry>
 															<entry>
 																<key>href</key>
-																<value xsi:type="xsd:string">/auth/realms/customer/broker/github/login?client_id=garkbit&amp;tab_id=xnAK34sXMkM&amp;session_code=NM69M7_brjGVFmV0p45gA7f-jjCQUFCM6XR7vwh2ww0</value>
+																<value xsi:type="xsd:string">/auth/realms/customer/broker/github/login?client_id=garkbit&amp;tab_id=9gmZIgChFWM&amp;session_code=1b0Te74JOp1EEgMXnupOtSBB0LPK8JDPyUKkz1tnaMk</value>
 															</entry>
 															<entry>
 																<key>line-height</key>
@@ -815,7 +815,7 @@
 											</containedElements>
 										</containedElements>
 									</containedElements>
-									<containedElements retestId="div-90cdb">
+									<containedElements retestId="div-86b72">
 										<identifyingAttributes>
 											<attributes>
 												<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -910,7 +910,7 @@
 												<attributes>
 													<entry>
 														<key>action</key>
-														<value xsi:type="xsd:string">https://sso.prod.cloud.retest.org/auth/realms/customer/login-actions/authenticate?session_code=NM69M7_brjGVFmV0p45gA7f-jjCQUFCM6XR7vwh2ww0&amp;execution=5f81dfd9-3d8c-452d-84ac-657d8bfd6746&amp;client_id=garkbit&amp;tab_id=xnAK34sXMkM</value>
+														<value xsi:type="xsd:string">https://sso.prod.cloud.retest.org/auth/realms/customer/login-actions/authenticate?session_code=1b0Te74JOp1EEgMXnupOtSBB0LPK8JDPyUKkz1tnaMk&amp;execution=5f81dfd9-3d8c-452d-84ac-657d8bfd6746&amp;client_id=garkbit&amp;tab_id=9gmZIgChFWM</value>
 													</entry>
 													<entry>
 														<key>border-right-color</key>
@@ -930,7 +930,7 @@
 													</entry>
 												</attributes>
 											</attributes>
-											<containedElements retestId="div-af357">
+											<containedElements retestId="div-eaab4">
 												<identifyingAttributes>
 													<attributes>
 														<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1175,7 +1175,7 @@
 													</attributes>
 												</containedElements>
 											</containedElements>
-											<containedElements retestId="div-52a20">
+											<containedElements retestId="div-6b457">
 												<identifyingAttributes>
 													<attributes>
 														<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1220,7 +1220,7 @@
 														</entry>
 													</attributes>
 												</attributes>
-												<containedElements retestId="div-b9c65">
+												<containedElements retestId="div-ad602">
 													<identifyingAttributes>
 														<attributes>
 															<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1329,7 +1329,7 @@
 																	</entry>
 																	<entry>
 																		<key>href</key>
-																		<value xsi:type="xsd:string">/auth/realms/customer/login-actions/reset-credentials?client_id=garkbit&amp;tab_id=xnAK34sXMkM</value>
+																		<value xsi:type="xsd:string">/auth/realms/customer/login-actions/reset-credentials?client_id=garkbit&amp;tab_id=9gmZIgChFWM</value>
 																	</entry>
 																	<entry>
 																		<key>outline-color</key>
@@ -1356,7 +1356,7 @@
 														</containedElements>
 													</containedElements>
 												</containedElements>
-												<containedElements retestId="div-5a0f8">
+												<containedElements retestId="div-28271">
 													<identifyingAttributes>
 														<attributes>
 															<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1387,7 +1387,7 @@
 													</attributes>
 												</containedElements>
 											</containedElements>
-											<containedElements retestId="div-97637">
+											<containedElements retestId="div-a4a80">
 												<identifyingAttributes>
 													<attributes>
 														<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1471,7 +1471,7 @@
 														</attributes>
 													</attributes>
 												</containedElements>
-												<containedElements retestId="input-a24b6">
+												<containedElements retestId="input-304e5">
 													<identifyingAttributes>
 														<attributes>
 															<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1632,7 +1632,7 @@
 													</attributes>
 												</containedElements>
 											</containedElements>
-											<containedElements retestId="div-2d983">
+											<containedElements retestId="div-82b3f">
 												<identifyingAttributes>
 													<attributes>
 														<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1670,7 +1670,7 @@
 														</entry>
 													</attributes>
 												</attributes>
-												<containedElements retestId="input-c8797">
+												<containedElements retestId="input-da89d">
 													<identifyingAttributes>
 														<attributes>
 															<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1878,7 +1878,7 @@
 										</containedElements>
 									</containedElements>
 								</containedElements>
-								<containedElements retestId="div-e22de">
+								<containedElements retestId="div-714a5">
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1972,7 +1972,7 @@
 											</entry>
 										</attributes>
 									</attributes>
-									<containedElements retestId="div-8439e">
+									<containedElements retestId="div-0571e">
 										<identifyingAttributes>
 											<attributes>
 												<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2009,7 +2009,7 @@
 												</entry>
 											</attributes>
 										</attributes>
-										<containedElements retestId="div-763ec">
+										<containedElements retestId="div-eb889">
 											<identifyingAttributes>
 												<attributes>
 													<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2071,7 +2071,7 @@
 														</entry>
 													</attributes>
 												</attributes>
-												<containedElements retestId="new_user-c3663">
+												<containedElements retestId="new_user-d3a4a">
 													<identifyingAttributes>
 														<attributes>
 															<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2097,6 +2097,9 @@
 															<entry>
 																<key>shown</key>
 																<value xsi:type="xsd:string">true</value>
+															</entry>
+															<entry>
+																<key>tab-index</key>
 															</entry>
 														</attributes>
 													</attributes>
@@ -2154,7 +2157,7 @@
 															</entry>
 															<entry>
 																<key>href</key>
-																<value xsi:type="xsd:string">/auth/realms/customer/login-actions/registration?client_id=garkbit&amp;tab_id=xnAK34sXMkM</value>
+																<value xsi:type="xsd:string">/auth/realms/customer/login-actions/registration?client_id=garkbit&amp;tab_id=9gmZIgChFWM</value>
 															</entry>
 															<entry>
 																<key>margin-left</key>
@@ -2283,7 +2286,7 @@
 										</entry>
 									</attributes>
 								</attributes>
-								<containedElements retestId="div-5ee57">
+								<containedElements retestId="div-d4ab0">
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2381,7 +2384,7 @@
 											</attributes>
 										</attributes>
 									</containedElements>
-									<containedElements retestId="a-ef242">
+									<containedElements retestId="a-2d060">
 										<identifyingAttributes>
 											<attributes>
 												<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2565,7 +2568,7 @@
 							</containedElements>
 						</containedElements>
 					</containedElements>
-					<containedElements retestId="div-60714">
+					<containedElements retestId="div-5d15b">
 						<identifyingAttributes>
 							<attributes>
 								<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2738,7 +2741,7 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-e19c5">
+				<containedElements retestId="meta-7aa13">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2775,7 +2778,7 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-69fab">
+				<containedElements retestId="meta-a663d">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2808,7 +2811,7 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-93f8c">
+				<containedElements retestId="meta-0d84a">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
