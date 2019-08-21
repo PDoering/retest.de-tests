@@ -1,7 +1,7 @@
 package de.retest.recheck;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import org.openqa.selenium.WebDriver;
@@ -10,11 +10,11 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 class RetestWebpageTest {
 
-	WebDriver driver;
-	Recheck re;
+	static WebDriver driver;
+	static Recheck re;
 
-	@BeforeEach
-	void setup() {
+	@BeforeAll
+	static void setup() {
 		final ChromeOptions opts = new ChromeOptions();
 		opts.addArguments( "--headless", "--no-sandbox", "--window-size=1200,800" );
 		driver = new ChromeDriver( opts );
@@ -44,11 +44,10 @@ class RetestWebpageTest {
 		re.capTest();
 	}
 
-	@AfterEach
-	void tearDown() {
+	@AfterAll
+	static void tearDown() {
 		driver.quit();
 
-		// Produce the result file.
 		re.cap();
 	}
 
