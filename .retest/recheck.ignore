@@ -38,5 +38,7 @@ matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/form[1]
 matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1], attribute: href
 
 # Ignore changing attributes
-matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[6], attribute: opacity
 matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[4], attribute: visibility
+matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[6], attribute: animation-name
+matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[6], attribute: animation-duration
+matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[6], attribute: opacity
