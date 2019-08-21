@@ -1,0 +1,27 @@
+language: java
+dist: trusty
+
+addons:
+  chrome: stable
+  apt:
+    packages:
+      - chromium-chromedriver
+
+notifications:
+  email: false
+
+cache:
+  directories:
+    - "${HOME}/.m2/"
+
+stages:
+  - compile
+  - test
+  - deploy
+
+install: true
+
+script: mvn test
+
+before_script:
+  - ln --symbolic /usr/lib/chromium-browser/chromedriver "${HOME}/bin/chromedriver"
