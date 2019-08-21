@@ -19,6 +19,9 @@ class RetestWebpageTest {
 		opts.addArguments( "--headless", "--no-sandbox", "--window-size=1200,800" );
 		driver = new ChromeDriver( opts );
 		re = new RecheckImpl();
+
+		System.setProperty( de.retest.recheck.Properties.REHUB_REPORT_UPLOAD_ENABLED, "true" );
+		re = new RecheckImpl( RecheckOptions.builder().reportUploadEnabled( true ).build() );
 	}
 
 	@ParameterizedTest
