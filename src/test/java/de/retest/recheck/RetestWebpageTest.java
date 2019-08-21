@@ -15,13 +15,14 @@ class RetestWebpageTest {
 
 	@BeforeAll
 	static void setup() {
-		final ChromeOptions opts = new ChromeOptions();
-		opts.addArguments( "--headless", "--no-sandbox", "--window-size=1200,800" );
-		driver = new ChromeDriver( opts );
-		re = new RecheckImpl();
+		final var chromeOpts = new ChromeOptions();
+		chromeOpts.addArguments( "--headless", "--no-sandbox", "--window-size=1200,800" );
+		driver = new ChromeDriver( chromeOpts );
 
-		System.setProperty( de.retest.recheck.Properties.REHUB_REPORT_UPLOAD_ENABLED, "true" );
-		re = new RecheckImpl( RecheckOptions.builder().reportUploadEnabled( true ).build() );
+		final var recheckOpts = RecheckOptions.builder() //
+				.reportUploadEnabled( true ) //
+				.build();
+		re = new RecheckImpl( recheckOpts );
 	}
 
 	@ParameterizedTest
@@ -32,16 +33,20 @@ class RetestWebpageTest {
 			"https://retest.de/team", "https://retest.de/jobs", "https://retest.de/news",
 			"https://retest.de/contact-us", "https://assets.retest.org/releases/review.html",
 			"https://www.retest.de/feature-unbreakable-selenium", "http://garkbit.prod.cloud.retest.org/dashboard" } )
-	void index( final String link ) throws Exception {
+	void test( final String link ) throws Exception {
 		re.startTest( "retest-de" );
 
 		driver.get( link );
 		Thread.sleep( 1000 );
 
-		final String checkName = link.substring( link.lastIndexOf( "/" ) + 1 );
-		re.check( driver, checkName.equals( "retest.de" ) ? "index" : checkName );
+		re.check( driver, getCheckName( link ) );
 
 		re.capTest();
+	}
+
+	String getCheckName( final String link ) {
+		final String checkName = link.substring( link.lastIndexOf( "/" ) + 1 );
+		return checkName.equals( "retest.de" ) ? "index" : checkName;
 	}
 
 	@AfterAll
