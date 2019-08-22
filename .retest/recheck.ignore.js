@@ -10,7 +10,7 @@
 
 function matches(element, diff) {
 	// make clip: expected="rect(0px, 0px, 0px, 0px)", actual="rect(0px 0px 0px 0px)" equal
-	if (diff.key == "clip") {
+	if (diff && diff.key == "clip") {
 		return diff.expected.replace(/,/g, '') === diff.actual.replace(/,/g, '');
 	}
 	return false;
