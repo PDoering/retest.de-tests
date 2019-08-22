@@ -15,11 +15,6 @@ cache:
   directories:
     - "${HOME}/.m2/"
 
-stages:
-  - compile
-  - test
-  - deploy
-
 install: true
 
 script: mvn test
