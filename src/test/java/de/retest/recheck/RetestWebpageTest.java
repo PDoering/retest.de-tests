@@ -23,7 +23,7 @@ class RetestWebpageTest {
 		driver = new ChromeDriver( opts );
 
 		final var recheckOptions = RecheckOptions.builder() //
-				.reportUploadEnabled( true ) //
+				.enableReportUpload() //
 				.build();
 		re = new RecheckImpl( recheckOptions );
 	}
