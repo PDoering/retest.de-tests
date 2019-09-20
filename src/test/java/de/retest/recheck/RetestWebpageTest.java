@@ -1,12 +1,15 @@
 package de.retest.recheck;
 
+import static de.retest.recheck.util.TestUtils.getChromeOptions;
+import static de.retest.recheck.util.TestUtils.getRecheckOptions;
+import static de.retest.recheck.util.TestUtils.getTestName;
+
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 
 class RetestWebpageTest {
 
@@ -15,23 +18,15 @@ class RetestWebpageTest {
 
 	@BeforeAll
 	static void setup() {
-		final var opts = new ChromeOptions() //
-				.addArguments( // 
-						"--headless", //
-						"--no-sandbox", //
-						"--window-size=1200,800" );
-		driver = new ChromeDriver( opts );
+		driver = new ChromeDriver( getChromeOptions() );
 
-		final var recheckOptions = RecheckOptions.builder() //
-				.enableReportUpload() //
-				.build();
-		re = new RecheckImpl( recheckOptions );
+		re = new RecheckImpl( getRecheckOptions() );
 	}
 
 	@ParameterizedTest
 	@MethodSource( "de.retest.recheck.util.WebPageFactory#getLinks" )
 	void allRetestPages( final String link ) throws Exception {
-		re.startTest( link.substring( link.indexOf( "//" ) + 2 ).replaceAll( "[\\/\\-]", "." ) );
+		re.startTest( getTestName( link ) );
 
 		driver.get( link );
 		Thread.sleep( 1000 );
