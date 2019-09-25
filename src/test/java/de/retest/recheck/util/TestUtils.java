@@ -15,7 +15,6 @@ public class TestUtils {
 
 	public static RecheckOptions getRecheckOptions() {
 		return RecheckOptions.builder() //
-				.enableReportUpload() //
 				.build();
 	}
 
