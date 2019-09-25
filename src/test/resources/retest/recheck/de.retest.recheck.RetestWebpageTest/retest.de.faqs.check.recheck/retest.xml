@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.5.0-beta.5" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
+<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.5.0" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
 	<data xsi:type="sutState">
 		<descriptors retestId="html" screenId="1" screen="FAQs" title="FAQs">
 			<identifyingAttributes>
@@ -5641,7 +5641,7 @@
 															</entry>
 															<entry>
 																<key>style</key>
-																<value xsi:type="xsd:string">width: 1200px; left: -16.5px;</value>
+																<value xsi:type="xsd:string">width: 1200px; left: -15.5px;</value>
 															</entry>
 															<entry>
 																<key>transition-delay</key>
@@ -6892,7 +6892,7 @@
 															</entry>
 															<entry>
 																<key>style</key>
-																<value xsi:type="xsd:string">width: 1200px; left: -16.5px;</value>
+																<value xsi:type="xsd:string">width: 1200px; left: -15.5px;</value>
 															</entry>
 														</attributes>
 													</attributes>
@@ -7308,7 +7308,7 @@
 							</entry>
 							<entry>
 								<key>transform</key>
-								<value xsi:type="xsd:string">matrix(1, 0, 0, 1, 0, -785)</value>
+								<value xsi:type="xsd:string">matrix(1, 0, 0, 1, 0, -783)</value>
 							</entry>
 							<entry>
 								<key>transition-duration</key>
@@ -10188,867 +10188,153 @@
 													</attribute>
 													<attribute key="class" xsi:type="stringAttribute">hbspt-form</attribute>
 													<attribute key="id" xsi:type="stringAttribute">hbspt-form-1568803447666-5985290607</attribute>
+													<attribute key="name" xsi:type="stringAttribute">mc-embedded-subscribe-form</attribute>
 													<attribute key="outline" xsi:type="outlineAttribute">
 														<x>14</x>
 														<y>231</y>
 														<height>-231</height>
 														<width>-28</width>
 													</attribute>
-													<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]</attribute>
+													<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]</attribute>
 													<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
-													<attribute key="type" xsi:type="stringAttribute">div</attribute>
+													<attribute key="type" xsi:type="stringAttribute">form</attribute>
 												</attributes>
 											</identifyingAttributes>
 											<attributes>
 												<attributes>
 													<entry>
+														<key>action</key>
+														<value xsi:type="xsd:string">https://retest.us17.list-manage.com/subscribe/post?u=dfb013457c95ce70c9daed996&amp;id=6ab504b1b7</value>
+													</entry>
+													<entry>
+														<key>display</key>
+														<value xsi:type="xsd:string">flex</value>
+													</entry>
+													<entry>
+														<key>justify-content</key>
+														<value xsi:type="xsd:string">center</value>
+													</entry>
+													<entry>
+														<key>margin-bottom</key>
+														<value xsi:type="xsd:string">48px</value>
+													</entry>
+													<entry>
+														<key>method</key>
+														<value xsi:type="xsd:string">post</value>
+													</entry>
+													<entry>
 														<key>shown</key>
 														<value xsi:type="xsd:string">true</value>
 													</entry>
+													<entry>
+														<key>target</key>
+														<value xsi:type="xsd:string">_blank</value>
+													</entry>
 												</attributes>
 											</attributes>
-											<containedElements retestId="iframe">
+											<containedElements retestId="subscribe">
 												<identifyingAttributes>
 													<attributes>
 														<attribute key="absolute-outline" xsi:type="outlineAttribute">
-															<x>17</x>
+															<x>585</x>
 															<y>4442</y>
-															<height>154</height>
-															<width>1152</width>
+															<height>32</height>
+															<width>103</width>
 														</attribute>
-														<attribute key="class" xsi:type="stringAttribute">hs-form-iframe</attribute>
-														<attribute key="id" xsi:type="stringAttribute">hs-form-iframe-0</attribute>
+														<attribute key="class" xsi:type="stringAttribute">ttu</attribute>
+														<attribute key="id" xsi:type="stringAttribute">mc-embedded-subscribe</attribute>
+														<attribute key="name" xsi:type="stringAttribute">subscribe</attribute>
 														<attribute key="outline" xsi:type="outlineAttribute">
-															<x>0</x>
+															<x>570</x>
 															<y>0</y>
 															<height>0</height>
-															<width>0</width>
+															<width>-1049</width>
 														</attribute>
-														<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]</attribute>
+														<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/button[1]</attribute>
 														<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
-														<attribute key="type" xsi:type="stringAttribute">iframe</attribute>
+														<attribute key="text" xsi:type="textAttribute">Subscribe</attribute>
+														<attribute key="type" xsi:type="stringAttribute">button</attribute>
 													</attributes>
 												</identifyingAttributes>
 												<attributes>
 													<attributes>
 														<entry>
-															<key>scrolling</key>
-															<value xsi:type="xsd:string">no</value>
+															<key>align-items</key>
+															<value xsi:type="xsd:string">flex-start</value>
+														</entry>
+														<entry>
+															<key>background-color</key>
+															<value xsi:type="xsd:string">rgb(129, 133, 141)</value>
+														</entry>
+														<entry>
+															<key>border-bottom-color</key>
+															<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+														</entry>
+														<entry>
+															<key>border-bottom-right-radius</key>
+															<value xsi:type="xsd:string">23px</value>
+														</entry>
+														<entry>
+															<key>border-left-color</key>
+															<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+														</entry>
+														<entry>
+															<key>border-radius</key>
+															<value xsi:type="xsd:string">0px 23px 23px 0px</value>
+														</entry>
+														<entry>
+															<key>border-right-color</key>
+															<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+														</entry>
+														<entry>
+															<key>border-top-color</key>
+															<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+														</entry>
+														<entry>
+															<key>border-top-right-radius</key>
+															<value xsi:type="xsd:string">23px</value>
+														</entry>
+														<entry>
+															<key>caret-color</key>
+															<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+														</entry>
+														<entry>
+															<key>color</key>
+															<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+														</entry>
+														<entry>
+															<key>column-rule-color</key>
+															<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+														</entry>
+														<entry>
+															<key>font-size</key>
+															<value xsi:type="xsd:string">12px</value>
+														</entry>
+														<entry>
+															<key>outline-color</key>
+															<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+														</entry>
+														<entry>
+															<key>read-only</key>
 														</entry>
 														<entry>
 															<key>shown</key>
 															<value xsi:type="xsd:string">true</value>
 														</entry>
 														<entry>
-															<key>style</key>
-															<value xsi:type="xsd:string">position: static; border: none; display: block; overflow: hidden; width: 1152px; height: 154px;</value>
+															<key>text-decoration-color</key>
+															<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+														</entry>
+														<entry>
+															<key>text-transform</key>
+															<value xsi:type="xsd:string">uppercase</value>
+														</entry>
+														<entry>
+															<key>type</key>
+															<value xsi:type="xsd:string">submit</value>
 														</entry>
 													</attributes>
 												</attributes>
-												<containedElements retestId="body">
-													<identifyingAttributes>
-														<attributes>
-															<attribute key="absolute-outline" xsi:type="outlineAttribute">
-																<x>0</x>
-																<y>0</y>
-																<height>154</height>
-																<width>1152</width>
-															</attribute>
-															<attribute key="outline" xsi:type="outlineAttribute">
-																<x>0</x>
-																<y>0</y>
-																<height>-18</height>
-																<width>0</width>
-															</attribute>
-															<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]/html[1]/body[1]</attribute>
-															<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
-															<attribute key="type" xsi:type="stringAttribute">body</attribute>
-														</attributes>
-													</identifyingAttributes>
-													<attributes>
-														<attributes>
-															<entry>
-																<key>shown</key>
-																<value xsi:type="xsd:string">true</value>
-															</entry>
-														</attributes>
-													</attributes>
-													<containedElements retestId="div">
-														<identifyingAttributes>
-															<attributes>
-																<attribute key="absolute-outline" xsi:type="outlineAttribute">
-																	<x>0</x>
-																	<y>0</y>
-																	<height>154</height>
-																	<width>1152</width>
-																</attribute>
-																<attribute key="class" xsi:type="stringAttribute">hbspt-form</attribute>
-																<attribute key="id" xsi:type="stringAttribute">hbspt-form-1568803447804-9314506219</attribute>
-																<attribute key="outline" xsi:type="outlineAttribute">
-																	<x>0</x>
-																	<y>0</y>
-																	<height>0</height>
-																	<width>0</width>
-																</attribute>
-																<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]/html[1]/body[1]/div[1]</attribute>
-																<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
-																<attribute key="type" xsi:type="stringAttribute">div</attribute>
-															</attributes>
-														</identifyingAttributes>
-														<attributes>
-															<attributes>
-																<entry>
-																	<key>shown</key>
-																	<value xsi:type="xsd:string">true</value>
-																</entry>
-															</attributes>
-														</attributes>
-														<containedElements retestId="form">
-															<identifyingAttributes>
-																<attributes>
-																	<attribute key="absolute-outline" xsi:type="outlineAttribute">
-																		<x>0</x>
-																		<y>0</y>
-																		<height>154</height>
-																		<width>1152</width>
-																	</attribute>
-																	<attribute key="class" xsi:type="stringAttribute">hs-form stacked hs-custom-style hs-form-private hsForm_78b407b3-2354-4f01-be2e-c2617d2f14a0 hs-form-78b407b3-2354-4f01-be2e-c2617d2f14a0 hs-form-78b407b3-2354-4f01-be2e-c2617d2f14a0_a71d46ee-482c-44b5-8821-f2de676a4355</attribute>
-																	<attribute key="id" xsi:type="stringAttribute">hsForm_78b407b3-2354-4f01-be2e-c2617d2f14a0</attribute>
-																	<attribute key="outline" xsi:type="outlineAttribute">
-																		<x>0</x>
-																		<y>0</y>
-																		<height>0</height>
-																		<width>0</width>
-																	</attribute>
-																	<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]/html[1]/body[1]/div[1]/form[1]</attribute>
-																	<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
-																	<attribute key="type" xsi:type="stringAttribute">form</attribute>
-																</attributes>
-															</identifyingAttributes>
-															<attributes>
-																<attributes>
-																	<entry>
-																		<key>accept-charset</key>
-																		<value xsi:type="xsd:string">UTF-8</value>
-																	</entry>
-																	<entry>
-																		<key>action</key>
-																		<value xsi:type="xsd:string">https://forms.hsforms.com/submissions/v3/public/submit/formsnext/multipart/6255151/78b407b3-2354-4f01-be2e-c2617d2f14a0</value>
-																	</entry>
-																	<entry>
-																		<key>data-form-id</key>
-																		<value xsi:type="xsd:string">78b407b3-2354-4f01-be2e-c2617d2f14a0</value>
-																	</entry>
-																	<entry>
-																		<key>data-portal-id</key>
-																		<value xsi:type="xsd:string">6255151</value>
-																	</entry>
-																	<entry>
-																		<key>data-reactid</key>
-																		<value xsi:type="xsd:string">.hbspt-forms-0</value>
-																	</entry>
-																	<entry>
-																		<key>enctype</key>
-																		<value xsi:type="xsd:string">multipart/form-data</value>
-																	</entry>
-																	<entry>
-																		<key>method</key>
-																		<value xsi:type="xsd:string">POST</value>
-																	</entry>
-																	<entry>
-																		<key>shown</key>
-																		<value xsi:type="xsd:string">true</value>
-																	</entry>
-																	<entry>
-																		<key>target</key>
-																		<value xsi:type="xsd:string">target_iframe_78b407b3-2354-4f01-be2e-c2617d2f14a0</value>
-																	</entry>
-																</attributes>
-															</attributes>
-															<containedElements retestId="div-2f0c0">
-																<identifyingAttributes>
-																	<attributes>
-																		<attribute key="absolute-outline" xsi:type="outlineAttribute">
-																			<x>0</x>
-																			<y>0</y>
-																			<height>64</height>
-																			<width>1152</width>
-																		</attribute>
-																		<attribute key="class" xsi:type="stringAttribute">hs_email hs-email hs-fieldtype-text field hs-form-field</attribute>
-																		<attribute key="outline" xsi:type="outlineAttribute">
-																			<x>0</x>
-																			<y>0</y>
-																			<height>-90</height>
-																			<width>0</width>
-																		</attribute>
-																		<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]/html[1]/body[1]/div[1]/form[1]/div[1]</attribute>
-																		<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
-																		<attribute key="type" xsi:type="stringAttribute">div</attribute>
-																	</attributes>
-																</identifyingAttributes>
-																<attributes>
-																	<attributes>
-																		<entry>
-																			<key>box-sizing</key>
-																			<value xsi:type="xsd:string">border-box</value>
-																		</entry>
-																		<entry>
-																			<key>data-reactid</key>
-																			<value xsi:type="xsd:string">.hbspt-forms-0.1:$0</value>
-																		</entry>
-																		<entry>
-																			<key>margin-bottom</key>
-																			<value xsi:type="xsd:string">18px</value>
-																		</entry>
-																		<entry>
-																			<key>shown</key>
-																			<value xsi:type="xsd:string">true</value>
-																		</entry>
-																	</attributes>
-																</attributes>
-																<containedElements retestId="label">
-																	<identifyingAttributes>
-																		<attributes>
-																			<attribute key="absolute-outline" xsi:type="outlineAttribute">
-																				<x>0</x>
-																				<y>0</y>
-																				<height>20</height>
-																				<width>1152</width>
-																			</attribute>
-																			<attribute key="id" xsi:type="stringAttribute">label-email-78b407b3-2354-4f01-be2e-c2617d2f14a0</attribute>
-																			<attribute key="outline" xsi:type="outlineAttribute">
-																				<x>0</x>
-																				<y>0</y>
-																				<height>-44</height>
-																				<width>0</width>
-																			</attribute>
-																			<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]/html[1]/body[1]/div[1]/form[1]/div[1]/label[1]</attribute>
-																			<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
-																			<attribute key="type" xsi:type="stringAttribute">label</attribute>
-																		</attributes>
-																	</identifyingAttributes>
-																	<attributes>
-																		<attributes>
-																			<entry>
-																				<key>border-bottom-color</key>
-																				<value xsi:type="xsd:string">rgb(34, 38, 53)</value>
-																			</entry>
-																			<entry>
-																				<key>border-left-color</key>
-																				<value xsi:type="xsd:string">rgb(34, 38, 53)</value>
-																			</entry>
-																			<entry>
-																				<key>border-right-color</key>
-																				<value xsi:type="xsd:string">rgb(34, 38, 53)</value>
-																			</entry>
-																			<entry>
-																				<key>border-top-color</key>
-																				<value xsi:type="xsd:string">rgb(34, 38, 53)</value>
-																			</entry>
-																			<entry>
-																				<key>caret-color</key>
-																				<value xsi:type="xsd:string">rgb(34, 38, 53)</value>
-																			</entry>
-																			<entry>
-																				<key>color</key>
-																				<value xsi:type="xsd:string">rgb(34, 38, 53)</value>
-																			</entry>
-																			<entry>
-																				<key>column-rule-color</key>
-																				<value xsi:type="xsd:string">rgb(34, 38, 53)</value>
-																			</entry>
-																			<entry>
-																				<key>data-reactid</key>
-																				<value xsi:type="xsd:string">.hbspt-forms-0.1:$0.0</value>
-																			</entry>
-																			<entry>
-																				<key>font-family</key>
-																				<value xsi:type="xsd:string">Actor</value>
-																			</entry>
-																			<entry>
-																				<key>font-size</key>
-																				<value xsi:type="xsd:string">13px</value>
-																			</entry>
-																			<entry>
-																				<key>font-weight</key>
-																				<value xsi:type="xsd:string">500</value>
-																			</entry>
-																			<entry>
-																				<key>for</key>
-																				<value xsi:type="xsd:string">email-78b407b3-2354-4f01-be2e-c2617d2f14a0</value>
-																			</entry>
-																			<entry>
-																				<key>line-height</key>
-																				<value xsi:type="xsd:string">20px</value>
-																			</entry>
-																			<entry>
-																				<key>margin-bottom</key>
-																				<value xsi:type="xsd:string">4px</value>
-																			</entry>
-																			<entry>
-																				<key>outline-color</key>
-																				<value xsi:type="xsd:string">rgb(34, 38, 53)</value>
-																			</entry>
-																			<entry>
-																				<key>placeholder</key>
-																				<value xsi:type="xsd:string">Enter your I would like to receive timely updates about retest.</value>
-																			</entry>
-																			<entry>
-																				<key>shown</key>
-																				<value xsi:type="xsd:string">true</value>
-																			</entry>
-																			<entry>
-																				<key>text-align</key>
-																				<value xsi:type="xsd:string">left</value>
-																			</entry>
-																			<entry>
-																				<key>text-decoration-color</key>
-																				<value xsi:type="xsd:string">rgb(34, 38, 53)</value>
-																			</entry>
-																		</attributes>
-																	</attributes>
-																	<containedElements retestId="span">
-																		<identifyingAttributes>
-																			<attributes>
-																				<attribute key="absolute-outline" xsi:type="outlineAttribute">
-																					<x>282</x>
-																					<y>1</y>
-																					<height>17</height>
-																					<width>6</width>
-																				</attribute>
-																				<attribute key="class" xsi:type="stringAttribute">hs-form-required</attribute>
-																				<attribute key="outline" xsi:type="outlineAttribute">
-																					<x>282</x>
-																					<y>1</y>
-																					<height>-3</height>
-																					<width>-1146</width>
-																				</attribute>
-																				<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]/html[1]/body[1]/div[1]/form[1]/div[1]/label[1]/span[2]</attribute>
-																				<attribute key="suffix" xsi:type="suffixAttribute">2</attribute>
-																				<attribute key="text" xsi:type="textAttribute">*</attribute>
-																				<attribute key="type" xsi:type="stringAttribute">span</attribute>
-																			</attributes>
-																		</identifyingAttributes>
-																		<attributes>
-																			<attributes>
-																				<entry>
-																					<key>border-bottom-color</key>
-																					<value xsi:type="xsd:string">rgb(255, 0, 0)</value>
-																				</entry>
-																				<entry>
-																					<key>border-left-color</key>
-																					<value xsi:type="xsd:string">rgb(255, 0, 0)</value>
-																				</entry>
-																				<entry>
-																					<key>border-right-color</key>
-																					<value xsi:type="xsd:string">rgb(255, 0, 0)</value>
-																				</entry>
-																				<entry>
-																					<key>border-top-color</key>
-																					<value xsi:type="xsd:string">rgb(255, 0, 0)</value>
-																				</entry>
-																				<entry>
-																					<key>caret-color</key>
-																					<value xsi:type="xsd:string">rgb(255, 0, 0)</value>
-																				</entry>
-																				<entry>
-																					<key>color</key>
-																					<value xsi:type="xsd:string">rgb(255, 0, 0)</value>
-																				</entry>
-																				<entry>
-																					<key>column-rule-color</key>
-																					<value xsi:type="xsd:string">rgb(255, 0, 0)</value>
-																				</entry>
-																				<entry>
-																					<key>data-reactid</key>
-																					<value xsi:type="xsd:string">.hbspt-forms-0.1:$0.0.1</value>
-																				</entry>
-																				<entry>
-																					<key>outline-color</key>
-																					<value xsi:type="xsd:string">rgb(255, 0, 0)</value>
-																				</entry>
-																				<entry>
-																					<key>shown</key>
-																					<value xsi:type="xsd:string">true</value>
-																				</entry>
-																				<entry>
-																					<key>text-decoration-color</key>
-																					<value xsi:type="xsd:string">rgb(255, 0, 0)</value>
-																				</entry>
-																			</attributes>
-																		</attributes>
-																	</containedElements>
-																	<containedElements retestId="i_would_like">
-																		<identifyingAttributes>
-																			<attributes>
-																				<attribute key="absolute-outline" xsi:type="outlineAttribute">
-																					<x>0</x>
-																					<y>1</y>
-																					<height>17</height>
-																					<width>282</width>
-																				</attribute>
-																				<attribute key="outline" xsi:type="outlineAttribute">
-																					<x>0</x>
-																					<y>1</y>
-																					<height>-3</height>
-																					<width>-870</width>
-																				</attribute>
-																				<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]/html[1]/body[1]/div[1]/form[1]/div[1]/label[1]/span[1]</attribute>
-																				<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
-																				<attribute key="text" xsi:type="textAttribute">I would like to receive timely updates about retest.</attribute>
-																				<attribute key="type" xsi:type="stringAttribute">span</attribute>
-																			</attributes>
-																		</identifyingAttributes>
-																		<attributes>
-																			<attributes>
-																				<entry>
-																					<key>data-reactid</key>
-																					<value xsi:type="xsd:string">.hbspt-forms-0.1:$0.0.0</value>
-																				</entry>
-																				<entry>
-																					<key>shown</key>
-																					<value xsi:type="xsd:string">true</value>
-																				</entry>
-																			</attributes>
-																		</attributes>
-																	</containedElements>
-																</containedElements>
-																<containedElements retestId="div-3168e">
-																	<identifyingAttributes>
-																		<attributes>
-																			<attribute key="absolute-outline" xsi:type="outlineAttribute">
-																				<x>0</x>
-																				<y>24</y>
-																				<height>40</height>
-																				<width>1152</width>
-																			</attribute>
-																			<attribute key="class" xsi:type="stringAttribute">input</attribute>
-																			<attribute key="outline" xsi:type="outlineAttribute">
-																				<x>0</x>
-																				<y>24</y>
-																				<height>-24</height>
-																				<width>0</width>
-																			</attribute>
-																			<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]/html[1]/body[1]/div[1]/form[1]/div[1]/div[1]</attribute>
-																			<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
-																			<attribute key="type" xsi:type="stringAttribute">div</attribute>
-																		</attributes>
-																	</identifyingAttributes>
-																	<attributes>
-																		<attributes>
-																			<entry>
-																				<key>data-reactid</key>
-																				<value xsi:type="xsd:string">.hbspt-forms-0.1:$0.$email</value>
-																			</entry>
-																			<entry>
-																				<key>shown</key>
-																				<value xsi:type="xsd:string">true</value>
-																			</entry>
-																		</attributes>
-																	</attributes>
-																	<containedElements retestId="input">
-																		<identifyingAttributes>
-																			<attributes>
-																				<attribute key="absolute-outline" xsi:type="outlineAttribute">
-																					<x>0</x>
-																					<y>24</y>
-																					<height>40</height>
-																					<width>1152</width>
-																				</attribute>
-																				<attribute key="class" xsi:type="stringAttribute">hs-input</attribute>
-																				<attribute key="id" xsi:type="stringAttribute">email-78b407b3-2354-4f01-be2e-c2617d2f14a0</attribute>
-																				<attribute key="name" xsi:type="stringAttribute">email</attribute>
-																				<attribute key="outline" xsi:type="outlineAttribute">
-																					<x>0</x>
-																					<y>0</y>
-																					<height>0</height>
-																					<width>0</width>
-																				</attribute>
-																				<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]/html[1]/body[1]/div[1]/form[1]/div[1]/div[1]/input[1]</attribute>
-																				<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
-																				<attribute key="type" xsi:type="stringAttribute">input</attribute>
-																			</attributes>
-																		</identifyingAttributes>
-																		<attributes>
-																			<attributes>
-																				<entry>
-																					<key>autocomplete</key>
-																					<value xsi:type="xsd:string">email</value>
-																				</entry>
-																				<entry>
-																					<key>border-bottom-color</key>
-																					<value xsi:type="xsd:string">rgb(202, 213, 226)</value>
-																				</entry>
-																				<entry>
-																					<key>border-bottom-style</key>
-																					<value xsi:type="xsd:string">solid</value>
-																				</entry>
-																				<entry>
-																					<key>border-bottom-width</key>
-																					<value xsi:type="xsd:string">2px</value>
-																				</entry>
-																				<entry>
-																					<key>border-left-color</key>
-																					<value xsi:type="xsd:string">rgb(51, 71, 91)</value>
-																				</entry>
-																				<entry>
-																					<key>border-right-color</key>
-																					<value xsi:type="xsd:string">rgb(51, 71, 91)</value>
-																				</entry>
-																				<entry>
-																					<key>border-top-color</key>
-																					<value xsi:type="xsd:string">rgb(51, 71, 91)</value>
-																				</entry>
-																				<entry>
-																					<key>caret-color</key>
-																					<value xsi:type="xsd:string">rgb(51, 71, 91)</value>
-																				</entry>
-																				<entry>
-																					<key>color</key>
-																					<value xsi:type="xsd:string">rgb(51, 71, 91)</value>
-																				</entry>
-																				<entry>
-																					<key>column-rule-color</key>
-																					<value xsi:type="xsd:string">rgb(51, 71, 91)</value>
-																				</entry>
-																				<entry>
-																					<key>data-reactid</key>
-																					<value xsi:type="xsd:string">.hbspt-forms-0.1:$0.$email.0</value>
-																				</entry>
-																				<entry>
-																					<key>font-family</key>
-																					<value xsi:type="xsd:string">&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif</value>
-																				</entry>
-																				<entry>
-																					<key>line-height</key>
-																					<value xsi:type="xsd:string">22px</value>
-																				</entry>
-																				<entry>
-																					<key>max-width</key>
-																					<value xsi:type="xsd:string">100%</value>
-																				</entry>
-																				<entry>
-																					<key>min-height</key>
-																					<value xsi:type="xsd:string">27px</value>
-																				</entry>
-																				<entry>
-																					<key>outline-color</key>
-																					<value xsi:type="xsd:string">rgb(51, 71, 91)</value>
-																				</entry>
-																				<entry>
-																					<key>padding-left</key>
-																					<value xsi:type="xsd:string">15px</value>
-																				</entry>
-																				<entry>
-																					<key>padding-right</key>
-																					<value xsi:type="xsd:string">15px</value>
-																				</entry>
-																				<entry>
-																					<key>placeholder</key>
-																					<value xsi:type="xsd:string">Enter Your E-mail</value>
-																				</entry>
-																				<entry>
-																					<key>shown</key>
-																					<value xsi:type="xsd:string">true</value>
-																				</entry>
-																				<entry>
-																					<key>text-decoration-color</key>
-																					<value xsi:type="xsd:string">rgb(51, 71, 91)</value>
-																				</entry>
-																				<entry>
-																					<key>type</key>
-																					<value xsi:type="xsd:string">email</value>
-																				</entry>
-																			</attributes>
-																		</attributes>
-																	</containedElements>
-																</containedElements>
-															</containedElements>
-															<containedElements retestId="div-484d6">
-																<identifyingAttributes>
-																	<attributes>
-																		<attribute key="absolute-outline" xsi:type="outlineAttribute">
-																			<x>0</x>
-																			<y>82</y>
-																			<height>72</height>
-																			<width>1152</width>
-																		</attribute>
-																		<attribute key="class" xsi:type="stringAttribute">hs_submit hs-submit</attribute>
-																		<attribute key="outline" xsi:type="outlineAttribute">
-																			<x>0</x>
-																			<y>82</y>
-																			<height>-82</height>
-																			<width>0</width>
-																		</attribute>
-																		<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]/html[1]/body[1]/div[1]/form[1]/div[2]</attribute>
-																		<attribute key="suffix" xsi:type="suffixAttribute">2</attribute>
-																		<attribute key="type" xsi:type="stringAttribute">div</attribute>
-																	</attributes>
-																</identifyingAttributes>
-																<attributes>
-																	<attributes>
-																		<entry>
-																			<key>box-sizing</key>
-																			<value xsi:type="xsd:string">border-box</value>
-																		</entry>
-																		<entry>
-																			<key>data-reactid</key>
-																			<value xsi:type="xsd:string">.hbspt-forms-0.5</value>
-																		</entry>
-																		<entry>
-																			<key>shown</key>
-																			<value xsi:type="xsd:string">true</value>
-																		</entry>
-																	</attributes>
-																</attributes>
-																<containedElements retestId="div-36077">
-																	<identifyingAttributes>
-																		<attributes>
-																			<attribute key="absolute-outline" xsi:type="outlineAttribute">
-																				<x>0</x>
-																				<y>82</y>
-																				<height>72</height>
-																				<width>1152</width>
-																			</attribute>
-																			<attribute key="class" xsi:type="stringAttribute">actions</attribute>
-																			<attribute key="outline" xsi:type="outlineAttribute">
-																				<x>0</x>
-																				<y>0</y>
-																				<height>0</height>
-																				<width>0</width>
-																			</attribute>
-																			<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]/html[1]/body[1]/div[1]/form[1]/div[2]/div[2]</attribute>
-																			<attribute key="suffix" xsi:type="suffixAttribute">2</attribute>
-																			<attribute key="type" xsi:type="stringAttribute">div</attribute>
-																		</attributes>
-																	</identifyingAttributes>
-																	<attributes>
-																		<attributes>
-																			<entry>
-																				<key>data-reactid</key>
-																				<value xsi:type="xsd:string">.hbspt-forms-0.5.1</value>
-																			</entry>
-																			<entry>
-																				<key>margin-bottom</key>
-																				<value xsi:type="xsd:string">18px</value>
-																			</entry>
-																			<entry>
-																				<key>margin-top</key>
-																				<value xsi:type="xsd:string">18px</value>
-																			</entry>
-																			<entry>
-																				<key>padding-bottom</key>
-																				<value xsi:type="xsd:string">17px</value>
-																			</entry>
-																			<entry>
-																				<key>padding-top</key>
-																				<value xsi:type="xsd:string">17px</value>
-																			</entry>
-																			<entry>
-																				<key>shown</key>
-																				<value xsi:type="xsd:string">true</value>
-																			</entry>
-																			<entry>
-																				<key>text-align</key>
-																				<value xsi:type="xsd:string">left</value>
-																			</entry>
-																		</attributes>
-																	</attributes>
-																	<containedElements retestId="input-3e0ab">
-																		<identifyingAttributes>
-																			<attributes>
-																				<attribute key="absolute-outline" xsi:type="outlineAttribute">
-																					<x>0</x>
-																					<y>99</y>
-																					<height>38</height>
-																					<width>97</width>
-																				</attribute>
-																				<attribute key="class" xsi:type="stringAttribute">hs-button primary large</attribute>
-																				<attribute key="outline" xsi:type="outlineAttribute">
-																					<x>0</x>
-																					<y>17</y>
-																					<height>-34</height>
-																					<width>-1055</width>
-																				</attribute>
-																				<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]/html[1]/body[1]/div[1]/form[1]/div[2]/div[2]/input[1]</attribute>
-																				<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
-																				<attribute key="type" xsi:type="stringAttribute">input</attribute>
-																			</attributes>
-																		</identifyingAttributes>
-																		<attributes>
-																			<attributes>
-																				<entry>
-																					<key>align-items</key>
-																					<value xsi:type="xsd:string">flex-start</value>
-																				</entry>
-																				<entry>
-																					<key>background-color</key>
-																					<value xsi:type="xsd:string">rgb(129, 133, 141)</value>
-																				</entry>
-																				<entry>
-																					<key>border-bottom-color</key>
-																					<value xsi:type="xsd:string">rgb(129, 133, 141)</value>
-																				</entry>
-																				<entry>
-																					<key>border-bottom-left-radius</key>
-																					<value xsi:type="xsd:string">3px</value>
-																				</entry>
-																				<entry>
-																					<key>border-bottom-right-radius</key>
-																					<value xsi:type="xsd:string">3px</value>
-																				</entry>
-																				<entry>
-																					<key>border-bottom-style</key>
-																					<value xsi:type="xsd:string">solid</value>
-																				</entry>
-																				<entry>
-																					<key>border-bottom-width</key>
-																					<value xsi:type="xsd:string">1px</value>
-																				</entry>
-																				<entry>
-																					<key>border-left-color</key>
-																					<value xsi:type="xsd:string">rgb(129, 133, 141)</value>
-																				</entry>
-																				<entry>
-																					<key>border-left-style</key>
-																					<value xsi:type="xsd:string">solid</value>
-																				</entry>
-																				<entry>
-																					<key>border-left-width</key>
-																					<value xsi:type="xsd:string">1px</value>
-																				</entry>
-																				<entry>
-																					<key>border-radius</key>
-																					<value xsi:type="xsd:string">3px</value>
-																				</entry>
-																				<entry>
-																					<key>border-right-color</key>
-																					<value xsi:type="xsd:string">rgb(129, 133, 141)</value>
-																				</entry>
-																				<entry>
-																					<key>border-right-style</key>
-																					<value xsi:type="xsd:string">solid</value>
-																				</entry>
-																				<entry>
-																					<key>border-right-width</key>
-																					<value xsi:type="xsd:string">1px</value>
-																				</entry>
-																				<entry>
-																					<key>border-top-color</key>
-																					<value xsi:type="xsd:string">rgb(129, 133, 141)</value>
-																				</entry>
-																				<entry>
-																					<key>border-top-left-radius</key>
-																					<value xsi:type="xsd:string">3px</value>
-																				</entry>
-																				<entry>
-																					<key>border-top-right-radius</key>
-																					<value xsi:type="xsd:string">3px</value>
-																				</entry>
-																				<entry>
-																					<key>border-top-style</key>
-																					<value xsi:type="xsd:string">solid</value>
-																				</entry>
-																				<entry>
-																					<key>border-top-width</key>
-																					<value xsi:type="xsd:string">1px</value>
-																				</entry>
-																				<entry>
-																					<key>caret-color</key>
-																					<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
-																				</entry>
-																				<entry>
-																					<key>color</key>
-																					<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
-																				</entry>
-																				<entry>
-																					<key>column-rule-color</key>
-																					<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
-																				</entry>
-																				<entry>
-																					<key>data-reactid</key>
-																					<value xsi:type="xsd:string">.hbspt-forms-0.5.1.0</value>
-																				</entry>
-																				<entry>
-																					<key>font-family</key>
-																					<value xsi:type="xsd:string">Actor</value>
-																				</entry>
-																				<entry>
-																					<key>font-size</key>
-																					<value xsi:type="xsd:string">12px</value>
-																				</entry>
-																				<entry>
-																					<key>font-weight</key>
-																					<value xsi:type="xsd:string">700</value>
-																				</entry>
-																				<entry>
-																					<key>line-height</key>
-																					<value xsi:type="xsd:string">12px</value>
-																				</entry>
-																				<entry>
-																					<key>margin-bottom</key>
-																					<value xsi:type="xsd:string">0px</value>
-																				</entry>
-																				<entry>
-																					<key>margin-top</key>
-																					<value xsi:type="xsd:string">0px</value>
-																				</entry>
-																				<entry>
-																					<key>outline-color</key>
-																					<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
-																				</entry>
-																				<entry>
-																					<key>padding-bottom</key>
-																					<value xsi:type="xsd:string">12px</value>
-																				</entry>
-																				<entry>
-																					<key>padding-left</key>
-																					<value xsi:type="xsd:string">24px</value>
-																				</entry>
-																				<entry>
-																					<key>padding-right</key>
-																					<value xsi:type="xsd:string">24px</value>
-																				</entry>
-																				<entry>
-																					<key>padding-top</key>
-																					<value xsi:type="xsd:string">12px</value>
-																				</entry>
-																				<entry>
-																					<key>position</key>
-																					<value xsi:type="xsd:string">relative</value>
-																				</entry>
-																				<entry>
-																					<key>shown</key>
-																					<value xsi:type="xsd:string">true</value>
-																				</entry>
-																				<entry>
-																					<key>text-align</key>
-																					<value xsi:type="xsd:string">center</value>
-																				</entry>
-																				<entry>
-																					<key>text-decoration-color</key>
-																					<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
-																				</entry>
-																				<entry>
-																					<key>type</key>
-																					<value xsi:type="xsd:string">submit</value>
-																				</entry>
-																				<entry>
-																					<key>value</key>
-																					<value xsi:type="xsd:string">Subscribe</value>
-																				</entry>
-																				<entry>
-																					<key>white-space</key>
-																					<value xsi:type="xsd:string">pre</value>
-																				</entry>
-																			</attributes>
-																		</attributes>
-																	</containedElements>
-																</containedElements>
-															</containedElements>
-														</containedElements>
-													</containedElements>
-												</containedElements>
 											</containedElements>
 										</containedElements>
 										<containedElements retestId="ul-6c3fc">
@@ -11731,7 +11017,7 @@
 													</attribute>
 													<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/h6[2]</attribute>
 													<attribute key="suffix" xsi:type="suffixAttribute">2</attribute>
-													<attribute key="text" xsi:type="textAttribute">Subscribe to Newsletter</attribute>
+													<attribute key="text" xsi:type="textAttribute">Newsletter</attribute>
 													<attribute key="type" xsi:type="stringAttribute">h6</attribute>
 												</attributes>
 											</identifyingAttributes>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.5.0-beta.5" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
+<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.5.0" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
 	<data xsi:type="sutState">
 		<descriptors retestId="html" screenId="1" screen="Download review | retest – Making test automation painless and intelligent" title="Download review | retest – Making test automation painless and intelligent">
 			<identifyingAttributes>
@@ -1208,7 +1208,7 @@
 							</entry>
 							<entry>
 								<key>min-height</key>
-								<value xsi:type="xsd:string">calc(-288px + 100%)</value>
+								<value xsi:type="xsd:string">calc(100% + -288px)</value>
 							</entry>
 							<entry>
 								<key>padding-bottom</key>
@@ -1514,7 +1514,7 @@
 												</attribute>
 												<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/a[3]</attribute>
 												<attribute key="suffix" xsi:type="suffixAttribute">3</attribute>
-												<attribute key="text" xsi:type="textAttribute">Download review 1.4.0 for all platforms</attribute>
+												<attribute key="text" xsi:type="textAttribute">Download review 1.5.0 for all platforms</attribute>
 												<attribute key="type" xsi:type="stringAttribute">a</attribute>
 											</attributes>
 										</identifyingAttributes>
@@ -1598,7 +1598,7 @@
 												</entry>
 												<entry>
 													<key>href</key>
-													<value xsi:type="xsd:string">review/review-1.4.0.zip</value>
+													<value xsi:type="xsd:string">review/review-1.5.0.zip</value>
 												</entry>
 												<entry>
 													<key>padding-bottom</key>
@@ -1695,7 +1695,7 @@
 												</entry>
 												<entry>
 													<key>href</key>
-													<value xsi:type="xsd:string">review/review-1.4.0.zip</value>
+													<value xsi:type="xsd:string">review/review-1.5.0.zip</value>
 												</entry>
 												<entry>
 													<key>outline-color</key>
@@ -1821,7 +1821,7 @@
 												</attribute>
 												<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/a[2]</attribute>
 												<attribute key="suffix" xsi:type="suffixAttribute">2</attribute>
-												<attribute key="text" xsi:type="textAttribute">Download review 1.4.0 for Windows</attribute>
+												<attribute key="text" xsi:type="textAttribute">Download review 1.5.0 for Windows</attribute>
 												<attribute key="type" xsi:type="stringAttribute">a</attribute>
 											</attributes>
 										</identifyingAttributes>
@@ -1905,7 +1905,7 @@
 												</entry>
 												<entry>
 													<key>href</key>
-													<value xsi:type="xsd:string">review/review-1.4.0-win.zip</value>
+													<value xsi:type="xsd:string">review/review-1.5.0-win.zip</value>
 												</entry>
 												<entry>
 													<key>padding-bottom</key>
@@ -2041,7 +2041,7 @@
 													</attribute>
 													<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/small[1]/code[1]</attribute>
 													<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
-													<attribute key="text" xsi:type="textAttribute">979c8d56d5a3c91dca9e34a85b0fecf9011ac884d4535b8853a0cbaf351c7c41</attribute>
+													<attribute key="text" xsi:type="textAttribute">e3efabe006c0b562236afa3d00ff9d1ea14d3a4c9ac9e06fb6a6ec618d68fc07</attribute>
 													<attribute key="type" xsi:type="stringAttribute">code</attribute>
 												</attributes>
 											</identifyingAttributes>
@@ -2264,7 +2264,7 @@
 													</attribute>
 													<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/small[2]/code[1]</attribute>
 													<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
-													<attribute key="text" xsi:type="textAttribute">96c77d876dbf217f3aeb60b9fffb7cd72473069233e246b91daf70a81a409c9f</attribute>
+													<attribute key="text" xsi:type="textAttribute">fb7d66394926e3f49e580f647be80c55b86d04afe58ff325f6ef1159e6dff65b</attribute>
 													<attribute key="type" xsi:type="stringAttribute">code</attribute>
 												</attributes>
 											</identifyingAttributes>
@@ -2329,6 +2329,122 @@
 												</attributes>
 											</attributes>
 										</containedElements>
+									</containedElements>
+									<containedElements retestId="br-5fa8a">
+										<identifyingAttributes>
+											<attributes>
+												<attribute key="absolute-outline" xsi:type="outlineAttribute">
+													<x>735</x>
+													<y>867</y>
+													<height>21</height>
+													<width>0</width>
+												</attribute>
+												<attribute key="outline" xsi:type="outlineAttribute">
+													<x>543</x>
+													<y>617</y>
+													<height>-763</height>
+													<width>-800</width>
+												</attribute>
+												<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/br[2]</attribute>
+												<attribute key="suffix" xsi:type="suffixAttribute">2</attribute>
+												<attribute key="type" xsi:type="stringAttribute">br</attribute>
+											</attributes>
+										</identifyingAttributes>
+										<attributes>
+											<attributes>
+												<entry>
+													<key>shown</key>
+													<value xsi:type="xsd:string">true</value>
+												</entry>
+											</attributes>
+										</attributes>
+									</containedElements>
+									<containedElements retestId="br-4c64c">
+										<identifyingAttributes>
+											<attributes>
+												<attribute key="absolute-outline" xsi:type="outlineAttribute">
+													<x>992</x>
+													<y>503</y>
+													<height>21</height>
+													<width>0</width>
+												</attribute>
+												<attribute key="outline" xsi:type="outlineAttribute">
+													<x>800</x>
+													<y>253</y>
+													<height>-763</height>
+													<width>-800</width>
+												</attribute>
+												<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/br[1]</attribute>
+												<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+												<attribute key="type" xsi:type="stringAttribute">br</attribute>
+											</attributes>
+										</identifyingAttributes>
+										<attributes>
+											<attributes>
+												<entry>
+													<key>shown</key>
+													<value xsi:type="xsd:string">true</value>
+												</entry>
+											</attributes>
+										</attributes>
+									</containedElements>
+									<containedElements retestId="br">
+										<identifyingAttributes>
+											<attributes>
+												<attribute key="absolute-outline" xsi:type="outlineAttribute">
+													<x>770</x>
+													<y>901</y>
+													<height>21</height>
+													<width>0</width>
+												</attribute>
+												<attribute key="outline" xsi:type="outlineAttribute">
+													<x>579</x>
+													<y>651</y>
+													<height>-763</height>
+													<width>-800</width>
+												</attribute>
+												<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/br[3]</attribute>
+												<attribute key="suffix" xsi:type="suffixAttribute">3</attribute>
+												<attribute key="type" xsi:type="stringAttribute">br</attribute>
+											</attributes>
+										</identifyingAttributes>
+										<attributes>
+											<attributes>
+												<entry>
+													<key>shown</key>
+													<value xsi:type="xsd:string">true</value>
+												</entry>
+											</attributes>
+										</attributes>
+									</containedElements>
+									<containedElements retestId="br-be7c1">
+										<identifyingAttributes>
+											<attributes>
+												<attribute key="absolute-outline" xsi:type="outlineAttribute">
+													<x>744</x>
+													<y>977</y>
+													<height>21</height>
+													<width>0</width>
+												</attribute>
+												<attribute key="outline" xsi:type="outlineAttribute">
+													<x>552</x>
+													<y>727</y>
+													<height>-763</height>
+													<width>-800</width>
+												</attribute>
+												<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/br[6]</attribute>
+												<attribute key="suffix" xsi:type="suffixAttribute">6</attribute>
+												<attribute key="type" xsi:type="stringAttribute">br</attribute>
+											</attributes>
+										</identifyingAttributes>
+										<attributes>
+											<attributes>
+												<entry>
+													<key>shown</key>
+													<value xsi:type="xsd:string">true</value>
+												</entry>
+											</attributes>
+										</attributes>
 									</containedElements>
 								</containedElements>
 							</containedElements>
