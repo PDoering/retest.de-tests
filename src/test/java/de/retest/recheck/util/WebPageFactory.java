@@ -9,12 +9,8 @@ public class WebPageFactory {
 				"https://retest.de", // 
 				"https://retest.de/devtesters", //
 				"https://retest.de/managers", //
-				"https://retest.de/product-overview", //
 				"https://retest.de/recheck-web-chrome-extension", //
-				"https://retest.de/recheck-open-source", //
 				"https://retest.de/rehub", //
-				"https://retest.de/review", //
-				"https://retest.de/request-demo", //
 				"https://retest.de/faqs", //
 				"https://retest.de/about-us", // 
 				"https://retest.de/team", //
