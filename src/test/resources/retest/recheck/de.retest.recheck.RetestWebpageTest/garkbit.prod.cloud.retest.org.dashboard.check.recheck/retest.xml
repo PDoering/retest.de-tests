@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.5.0-beta.5" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
+<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.6.0-beta.4" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
 	<data xsi:type="sutState">
 		<descriptors retestId="html" screenId="1" screen="Log in to cloud.retest.de" title="Log in to cloud.retest.de">
 			<identifyingAttributes>
@@ -179,7 +179,7 @@
 							</entry>
 						</attributes>
 					</attributes>
-					<containedElements retestId="div-97383">
+					<containedElements retestId="div-1">
 						<identifyingAttributes>
 							<attributes>
 								<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -276,7 +276,7 @@
 								</entry>
 							</attributes>
 						</attributes>
-						<containedElements retestId="div-526c2">
+						<containedElements retestId="kccontent">
 							<identifyingAttributes>
 								<attributes>
 									<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -305,7 +305,7 @@
 									</entry>
 								</attributes>
 							</attributes>
-							<containedElements retestId="div-5f563">
+							<containedElements retestId="kccontentwrapper">
 								<identifyingAttributes>
 									<attributes>
 										<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -334,7 +334,7 @@
 										</entry>
 									</attributes>
 								</attributes>
-								<containedElements retestId="div-9fe52">
+								<containedElements retestId="kcform">
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -364,13 +364,13 @@
 											</entry>
 										</attributes>
 									</attributes>
-									<containedElements retestId="div-e3c3e">
+									<containedElements retestId="kcsocialproviders">
 										<identifyingAttributes>
 											<attributes>
 												<attribute key="absolute-outline" xsi:type="outlineAttribute">
 													<x>592</x>
 													<y>290</y>
-													<height>121</height>
+													<height>179</height>
 													<width>380</width>
 												</attribute>
 												<attribute key="class" xsi:type="stringAttribute">col-xs-12 col-sm-6 login-pf-social-section</attribute>
@@ -378,7 +378,7 @@
 												<attribute key="outline" xsi:type="outlineAttribute">
 													<x>379</x>
 													<y>0</y>
-													<height>-235</height>
+													<height>-177</height>
 													<width>-380</width>
 												</attribute>
 												<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]</attribute>
@@ -436,7 +436,7 @@
 													<attribute key="absolute-outline" xsi:type="outlineAttribute">
 														<x>633</x>
 														<y>320</y>
-														<height>91</height>
+														<height>149</height>
 														<width>339</width>
 													</attribute>
 													<attribute key="class" xsi:type="stringAttribute">login-pf-social list-unstyled login-pf-social-all</attribute>
@@ -484,7 +484,7 @@
 														<attribute key="outline" xsi:type="outlineAttribute">
 															<x>0</x>
 															<y>0</y>
-															<height>-58</height>
+															<height>-116</height>
 															<width>0</width>
 														</attribute>
 														<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]</attribute>
@@ -508,12 +508,183 @@
 														</entry>
 													</attributes>
 												</attributes>
-												<containedElements retestId="a">
+												<containedElements retestId="zocialgoogle">
 													<identifyingAttributes>
 														<attributes>
 															<attribute key="absolute-outline" xsi:type="outlineAttribute">
 																<x>633</x>
 																<y>320</y>
+																<height>33</height>
+																<width>339</width>
+															</attribute>
+															<attribute key="class" xsi:type="stringAttribute">zocial google</attribute>
+															<attribute key="id" xsi:type="stringAttribute">zocial-google</attribute>
+															<attribute key="outline" xsi:type="outlineAttribute">
+																<x>0</x>
+																<y>0</y>
+																<height>0</height>
+																<width>0</width>
+															</attribute>
+															<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1]</attribute>
+															<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+															<attribute key="type" xsi:type="stringAttribute">a</attribute>
+														</attributes>
+													</identifyingAttributes>
+													<attributes>
+														<attributes>
+															<entry>
+																<key>background-color</key>
+																<value xsi:type="xsd:string">rgb(245, 245, 245)</value>
+															</entry>
+															<entry>
+																<key>border-bottom-color</key>
+																<value xsi:type="xsd:string">rgb(114, 118, 123)</value>
+															</entry>
+															<entry>
+																<key>border-left-color</key>
+																<value xsi:type="xsd:string">rgb(114, 118, 123)</value>
+															</entry>
+															<entry>
+																<key>border-right-color</key>
+																<value xsi:type="xsd:string">rgb(114, 118, 123)</value>
+															</entry>
+															<entry>
+																<key>border-top-color</key>
+																<value xsi:type="xsd:string">rgb(114, 118, 123)</value>
+															</entry>
+															<entry>
+																<key>caret-color</key>
+																<value xsi:type="xsd:string">rgb(114, 118, 123)</value>
+															</entry>
+															<entry>
+																<key>color</key>
+																<value xsi:type="xsd:string">rgb(114, 118, 123)</value>
+															</entry>
+															<entry>
+																<key>column-rule-color</key>
+																<value xsi:type="xsd:string">rgb(114, 118, 123)</value>
+															</entry>
+															<entry>
+																<key>font-family</key>
+																<value xsi:type="xsd:string">&quot;Lucida Grande&quot;, Tahoma, sans-serif</value>
+															</entry>
+															<entry>
+																<key>font-size</key>
+																<value xsi:type="xsd:string">14px</value>
+															</entry>
+															<entry>
+																<key>href</key>
+																<value xsi:type="xsd:string">/auth/realms/customer/broker/google/login?client_id=garkbit&amp;tab_id=MbZh23-EZNo&amp;session_code=DsWpMi5_hcz1oM-NkKbJO1u5boAllbEV9M8d2I05jnI</value>
+															</entry>
+															<entry>
+																<key>line-height</key>
+																<value xsi:type="xsd:string">29.4px</value>
+															</entry>
+															<entry>
+																<key>outline-color</key>
+																<value xsi:type="xsd:string">rgb(114, 118, 123)</value>
+															</entry>
+															<entry>
+																<key>padding-bottom</key>
+																<value xsi:type="xsd:string">2px</value>
+															</entry>
+															<entry>
+																<key>padding-top</key>
+																<value xsi:type="xsd:string">2px</value>
+															</entry>
+															<entry>
+																<key>position</key>
+																<value xsi:type="xsd:string">relative</value>
+															</entry>
+															<entry>
+																<key>shown</key>
+																<value xsi:type="xsd:string">true</value>
+															</entry>
+															<entry>
+																<key>text-align</key>
+																<value xsi:type="xsd:string">center</value>
+															</entry>
+															<entry>
+																<key>text-decoration-color</key>
+																<value xsi:type="xsd:string">rgb(114, 118, 123)</value>
+															</entry>
+														</attributes>
+													</attributes>
+													<containedElements retestId="google">
+														<identifyingAttributes>
+															<attributes>
+																<attribute key="absolute-outline" xsi:type="outlineAttribute">
+																	<x>796</x>
+																	<y>328</y>
+																	<height>16</height>
+																	<width>45</width>
+																</attribute>
+																<attribute key="outline" xsi:type="outlineAttribute">
+																	<x>164</x>
+																	<y>8</y>
+																	<height>-17</height>
+																	<width>-294</width>
+																</attribute>
+																<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]</attribute>
+																<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+																<attribute key="text" xsi:type="textAttribute">Google</attribute>
+																<attribute key="type" xsi:type="stringAttribute">span</attribute>
+															</attributes>
+														</identifyingAttributes>
+														<attributes>
+															<attributes>
+																<entry>
+																	<key>shown</key>
+																	<value xsi:type="xsd:string">true</value>
+																</entry>
+															</attributes>
+														</attributes>
+													</containedElements>
+												</containedElements>
+											</containedElements>
+											<containedElements retestId="li-1">
+												<identifyingAttributes>
+													<attributes>
+														<attribute key="absolute-outline" xsi:type="outlineAttribute">
+															<x>633</x>
+															<y>378</y>
+															<height>33</height>
+															<width>339</width>
+														</attribute>
+														<attribute key="class" xsi:type="stringAttribute">login-pf-social-link</attribute>
+														<attribute key="outline" xsi:type="outlineAttribute">
+															<x>0</x>
+															<y>58</y>
+															<height>-116</height>
+															<width>0</width>
+														</attribute>
+														<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]</attribute>
+														<attribute key="suffix" xsi:type="suffixAttribute">2</attribute>
+														<attribute key="type" xsi:type="stringAttribute">li</attribute>
+													</attributes>
+												</identifyingAttributes>
+												<attributes>
+													<attributes>
+														<entry>
+															<key>margin-bottom</key>
+															<value xsi:type="xsd:string">25px</value>
+														</entry>
+														<entry>
+															<key>shown</key>
+															<value xsi:type="xsd:string">true</value>
+														</entry>
+														<entry>
+															<key>text-align</key>
+															<value xsi:type="xsd:string">left</value>
+														</entry>
+													</attributes>
+												</attributes>
+												<containedElements retestId="zocialbitbucket">
+													<identifyingAttributes>
+														<attributes>
+															<attribute key="absolute-outline" xsi:type="outlineAttribute">
+																<x>633</x>
+																<y>378</y>
 																<height>33</height>
 																<width>339</width>
 															</attribute>
@@ -525,7 +696,7 @@
 																<height>0</height>
 																<width>0</width>
 															</attribute>
-															<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1]</attribute>
+															<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/a[1]</attribute>
 															<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
 															<attribute key="type" xsi:type="stringAttribute">a</attribute>
 														</attributes>
@@ -578,7 +749,7 @@
 															</entry>
 															<entry>
 																<key>href</key>
-																<value xsi:type="xsd:string">/auth/realms/customer/broker/bitbucket/login?client_id=garkbit&amp;tab_id=OrgYxWOEgN4&amp;session_code=u2FraanrEGI7mbgibFuC366FfKOmQJELFgd1oRpEWm4</value>
+																<value xsi:type="xsd:string">/auth/realms/customer/broker/bitbucket/login?client_id=garkbit&amp;tab_id=MbZh23-EZNo&amp;session_code=DsWpMi5_hcz1oM-NkKbJO1u5boAllbEV9M8d2I05jnI</value>
 															</entry>
 															<entry>
 																<key>line-height</key>
@@ -619,7 +790,7 @@
 															<attributes>
 																<attribute key="absolute-outline" xsi:type="outlineAttribute">
 																	<x>789</x>
-																	<y>328</y>
+																	<y>386</y>
 																	<height>16</height>
 																	<width>59</width>
 																</attribute>
@@ -629,7 +800,7 @@
 																	<height>-17</height>
 																	<width>-280</width>
 																</attribute>
-																<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]</attribute>
+																<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/a[1]/span[1]</attribute>
 																<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
 																<attribute key="text" xsi:type="textAttribute">BitBucket</attribute>
 																<attribute key="type" xsi:type="stringAttribute">span</attribute>
@@ -646,24 +817,24 @@
 													</containedElements>
 												</containedElements>
 											</containedElements>
-											<containedElements retestId="li-cb128">
+											<containedElements retestId="li-2">
 												<identifyingAttributes>
 													<attributes>
 														<attribute key="absolute-outline" xsi:type="outlineAttribute">
 															<x>633</x>
-															<y>378</y>
+															<y>436</y>
 															<height>33</height>
 															<width>339</width>
 														</attribute>
 														<attribute key="class" xsi:type="stringAttribute">login-pf-social-link</attribute>
 														<attribute key="outline" xsi:type="outlineAttribute">
 															<x>0</x>
-															<y>58</y>
-															<height>-58</height>
+															<y>116</y>
+															<height>-116</height>
 															<width>0</width>
 														</attribute>
-														<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]</attribute>
-														<attribute key="suffix" xsi:type="suffixAttribute">2</attribute>
+														<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]</attribute>
+														<attribute key="suffix" xsi:type="suffixAttribute">3</attribute>
 														<attribute key="type" xsi:type="stringAttribute">li</attribute>
 													</attributes>
 												</identifyingAttributes>
@@ -679,12 +850,12 @@
 														</entry>
 													</attributes>
 												</attributes>
-												<containedElements retestId="a-0f540">
+												<containedElements retestId="zocialgithub">
 													<identifyingAttributes>
 														<attributes>
 															<attribute key="absolute-outline" xsi:type="outlineAttribute">
 																<x>633</x>
-																<y>378</y>
+																<y>436</y>
 																<height>33</height>
 																<width>339</width>
 															</attribute>
@@ -696,7 +867,7 @@
 																<height>0</height>
 																<width>0</width>
 															</attribute>
-															<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/a[1]</attribute>
+															<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/a[1]</attribute>
 															<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
 															<attribute key="type" xsi:type="stringAttribute">a</attribute>
 														</attributes>
@@ -745,7 +916,7 @@
 															</entry>
 															<entry>
 																<key>href</key>
-																<value xsi:type="xsd:string">/auth/realms/customer/broker/github/login?client_id=garkbit&amp;tab_id=OrgYxWOEgN4&amp;session_code=u2FraanrEGI7mbgibFuC366FfKOmQJELFgd1oRpEWm4</value>
+																<value xsi:type="xsd:string">/auth/realms/customer/broker/github/login?client_id=garkbit&amp;tab_id=MbZh23-EZNo&amp;session_code=DsWpMi5_hcz1oM-NkKbJO1u5boAllbEV9M8d2I05jnI</value>
 															</entry>
 															<entry>
 																<key>line-height</key>
@@ -786,7 +957,7 @@
 															<attributes>
 																<attribute key="absolute-outline" xsi:type="outlineAttribute">
 																	<x>797</x>
-																	<y>386</y>
+																	<y>444</y>
 																	<height>16</height>
 																	<width>44</width>
 																</attribute>
@@ -796,7 +967,7 @@
 																	<height>-17</height>
 																	<width>-295</width>
 																</attribute>
-																<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/a[1]/span[1]</attribute>
+																<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/a[1]/span[1]</attribute>
 																<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
 																<attribute key="text" xsi:type="textAttribute">GitHub</attribute>
 																<attribute key="type" xsi:type="stringAttribute">span</attribute>
@@ -826,7 +997,7 @@
 													<attribute key="outline" xsi:type="outlineAttribute">
 														<x>41</x>
 														<y>0</y>
-														<height>-101</height>
+														<height>-159</height>
 														<width>-41</width>
 													</attribute>
 													<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/p[1]</attribute>
@@ -885,7 +1056,7 @@
 											</attributes>
 										</containedElements>
 									</containedElements>
-									<containedElements retestId="div-eaaa6">
+									<containedElements retestId="kcformwrapper">
 										<identifyingAttributes>
 											<attributes>
 												<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1025,7 +1196,7 @@
 												</attributes>
 											</attributes>
 										</containedElements>
-										<containedElements retestId="div-f950e">
+										<containedElements retestId="kcregistration">
 											<identifyingAttributes>
 												<attributes>
 													<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1225,7 +1396,7 @@
 															</entry>
 															<entry>
 																<key>href</key>
-																<value xsi:type="xsd:string">/auth/realms/customer/login-actions/registration?client_id=garkbit&amp;tab_id=x7Z5W-llXgI</value>
+																<value xsi:type="xsd:string">/auth/realms/customer/login-actions/registration?client_id=garkbit&amp;tab_id=MbZh23-EZNo</value>
 															</entry>
 															<entry>
 																<key>line-height</key>
@@ -1282,7 +1453,7 @@
 														</attributes>
 													</attributes>
 												</containedElements>
-												<containedElements retestId="no_account_yet-4ddf4">
+												<containedElements retestId="no_account_yet-1">
 													<identifyingAttributes>
 														<attributes>
 															<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1317,7 +1488,7 @@
 												</containedElements>
 											</containedElements>
 										</containedElements>
-										<containedElements retestId="form">
+										<containedElements retestId="kcformlogin">
 											<identifyingAttributes>
 												<attributes>
 													<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1342,7 +1513,7 @@
 												<attributes>
 													<entry>
 														<key>action</key>
-														<value xsi:type="xsd:string">https://sso.prod.cloud.retest.org/auth/realms/customer/login-actions/authenticate?session_code=u2FraanrEGI7mbgibFuC366FfKOmQJELFgd1oRpEWm4&amp;execution=5f81dfd9-3d8c-452d-84ac-657d8bfd6746&amp;client_id=garkbit&amp;tab_id=OrgYxWOEgN4</value>
+														<value xsi:type="xsd:string">https://sso.prod.cloud.retest.org/auth/realms/customer/login-actions/authenticate?session_code=DsWpMi5_hcz1oM-NkKbJO1u5boAllbEV9M8d2I05jnI&amp;execution=5f81dfd9-3d8c-452d-84ac-657d8bfd6746&amp;client_id=garkbit&amp;tab_id=MbZh23-EZNo</value>
 													</entry>
 													<entry>
 														<key>border-right-color</key>
@@ -1362,7 +1533,7 @@
 													</entry>
 												</attributes>
 											</attributes>
-											<containedElements retestId="div-d40c5">
+											<containedElements retestId="div-2">
 												<identifyingAttributes>
 													<attributes>
 														<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1446,7 +1617,7 @@
 														</attributes>
 													</attributes>
 												</containedElements>
-												<containedElements retestId="input">
+												<containedElements retestId="password-1">
 													<identifyingAttributes>
 														<attributes>
 															<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1607,7 +1778,7 @@
 													</attributes>
 												</containedElements>
 											</containedElements>
-											<containedElements retestId="div-cd941">
+											<containedElements retestId="div-3">
 												<identifyingAttributes>
 													<attributes>
 														<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1652,7 +1823,7 @@
 														</entry>
 													</attributes>
 												</attributes>
-												<containedElements retestId="div-c5fd5">
+												<containedElements retestId="kcformoptions">
 													<identifyingAttributes>
 														<attributes>
 															<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1682,7 +1853,7 @@
 														</attributes>
 													</attributes>
 												</containedElements>
-												<containedElements retestId="div-ed513">
+												<containedElements retestId="div-4">
 													<identifyingAttributes>
 														<attributes>
 															<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1791,7 +1962,7 @@
 																	</entry>
 																	<entry>
 																		<key>href</key>
-																		<value xsi:type="xsd:string">/auth/realms/customer/login-actions/reset-credentials?client_id=garkbit&amp;tab_id=OrgYxWOEgN4</value>
+																		<value xsi:type="xsd:string">/auth/realms/customer/login-actions/reset-credentials?client_id=garkbit&amp;tab_id=MbZh23-EZNo</value>
 																	</entry>
 																	<entry>
 																		<key>outline-color</key>
@@ -1819,7 +1990,7 @@
 													</containedElements>
 												</containedElements>
 											</containedElements>
-											<containedElements retestId="div-ec67f">
+											<containedElements retestId="div-5">
 												<identifyingAttributes>
 													<attributes>
 														<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1903,7 +2074,7 @@
 														</attributes>
 													</attributes>
 												</containedElements>
-												<containedElements retestId="input-7b94a">
+												<containedElements retestId="username">
 													<identifyingAttributes>
 														<attributes>
 															<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2064,7 +2235,7 @@
 													</attributes>
 												</containedElements>
 											</containedElements>
-											<containedElements retestId="div-a41f8">
+											<containedElements retestId="kcformbuttons">
 												<identifyingAttributes>
 													<attributes>
 														<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2102,7 +2273,7 @@
 														</entry>
 													</attributes>
 												</attributes>
-												<containedElements retestId="input-871a5">
+												<containedElements retestId="kclogin">
 													<identifyingAttributes>
 														<attributes>
 															<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2310,7 +2481,7 @@
 										</containedElements>
 									</containedElements>
 								</containedElements>
-								<containedElements retestId="div-30691">
+								<containedElements retestId="kcinfo">
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2404,7 +2575,7 @@
 											</entry>
 										</attributes>
 									</attributes>
-									<containedElements retestId="div-f4ad5">
+									<containedElements retestId="kcinfowrapper">
 										<identifyingAttributes>
 											<attributes>
 												<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2486,7 +2657,7 @@
 									</entry>
 								</attributes>
 							</attributes>
-							<containedElements retestId="h1">
+							<containedElements retestId="kcpagetitle">
 								<identifyingAttributes>
 									<attributes>
 										<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2539,7 +2710,7 @@
 										</entry>
 									</attributes>
 								</attributes>
-								<containedElements retestId="div-ed060">
+								<containedElements retestId="div-6">
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2637,7 +2808,7 @@
 											</attributes>
 										</attributes>
 									</containedElements>
-									<containedElements retestId="a-ec87e">
+									<containedElements retestId="a">
 										<identifyingAttributes>
 											<attributes>
 												<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2738,7 +2909,7 @@
 													</entry>
 													<entry>
 														<key>src</key>
-														<value xsi:type="xsd:string">/auth/resources/6.0.1/login/retest/img/logo.svg</value>
+														<value xsi:type="xsd:string">/auth/resources/7.0.0/login/retest/img/logo.svg</value>
 													</entry>
 													<entry>
 														<key>vertical-align</key>
@@ -2821,7 +2992,7 @@
 							</containedElements>
 						</containedElements>
 					</containedElements>
-					<containedElements retestId="div-c898a">
+					<containedElements retestId="kcheader">
 						<identifyingAttributes>
 							<attributes>
 								<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2907,13 +3078,13 @@
 					<attributes>
 						<attribute key="absolute-outline" xsi:type="outlineAttribute">
 							<x>0</x>
-							<y>0</y>
+							<y>86</y>
 							<height>0</height>
 							<width>0</width>
 						</attribute>
 						<attribute key="outline" xsi:type="outlineAttribute">
 							<x>0</x>
-							<y>0</y>
+							<y>86</y>
 							<height>-800</height>
 							<width>-1185</width>
 						</attribute>
@@ -2935,7 +3106,7 @@
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
 								<x>0</x>
-								<y>0</y>
+								<y>86</y>
 								<height>0</height>
 								<width>0</width>
 							</attribute>
@@ -2969,7 +3140,7 @@
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
 								<x>0</x>
-								<y>0</y>
+								<y>86</y>
 								<height>0</height>
 								<width>0</width>
 							</attribute>
@@ -2994,12 +3165,12 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-c59e7">
+				<containedElements retestId="meta-1">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
 								<x>0</x>
-								<y>0</y>
+								<y>86</y>
 								<height>0</height>
 								<width>0</width>
 							</attribute>
@@ -3031,12 +3202,12 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-800f2">
+				<containedElements retestId="meta-2">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
 								<x>0</x>
-								<y>0</y>
+								<y>86</y>
 								<height>0</height>
 								<width>0</width>
 							</attribute>
@@ -3064,12 +3235,12 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-d7fc0">
+				<containedElements retestId="meta-3">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
 								<x>0</x>
-								<y>0</y>
+								<y>86</y>
 								<height>0</height>
 								<width>0</width>
 							</attribute>
@@ -3100,7 +3271,7 @@
 				</containedElements>
 			</containedElements>
 			<screenshot>
-				<persistenceId>html_61e45d71279001d762630fe6cef6bafba75c2eed1a1fe3872c3da0a25eeab264</persistenceId>
+				<persistenceId>html</persistenceId>
 				<type>PNG</type>
 			</screenshot>
 		</descriptors>
