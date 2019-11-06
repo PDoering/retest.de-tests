@@ -27,34 +27,28 @@ attribute=cd_frame_id_
 # Ignore pixel diffs up to 5 pixels:
 pixel-diff=5.0
 
-# Ignore iframes
-matcher: xpath=html[1]/body[1]/main[1]/section[2]/div[1]/div[1]/div[2]/iframe[1]
-matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/iframe[1]
-matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]
-matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]
-matcher: xpath=html[1]/body[1]/div[3]/div[2]/iframe[1]
 # Ignore all meta elements
 matcher: type=meta, attribute-regex: .*
+matcher: type=section, attribute: opacity
+matcher: type=section, attribute: transform
+
+# Ignore iframes
+matcher: xpath=html[1]/body[1]/div[3]/iframe[1]
+matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]
+matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/iframe[1]
+matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]
+matcher: xpath=html[1]/body[1]/main[1]/section[2]/div[1]/div[1]/div[2]/iframe[1]
 
 # Ignore generated attributes of login dashboard
 matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1], attribute: href
 matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/a[1], attribute: href
+matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/a[1], attribute: href
 matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/form[1], attribute: action
 matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/form[1]/div[3]/div[2]/span[1]/a[1], attribute: href
 matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/a[1], attribute: href
 
 # Ignore changing attributes
-matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[4], attribute: visibility
-matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[6], attribute: animation-name
-matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[6], attribute: animation-duration
-matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[6], attribute: opacity
-matcher: xpath=html[1]/body[1]/footer[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1], attribute: id
-matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[6], attribute: transform
-matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[6], attribute: visibility
-matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1], attribute: id
 matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1], attribute: id
-matcher: xpath=html[1]/body[1]/footer[1]/div[2]/button[1]/div[3], attribute: bottom
-
-
-
+matcher: xpath=html[1]/body[1]/footer[1]/div[2], attribute: transform
+matcher: xpath=html[1]/body[1]/footer[1]/div[2], attribute: opacity
 
