@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.6.0-beta.4" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
+<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.8.0" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
 	<data xsi:type="sutState">
 		<descriptors retestId="html" screenId="1" screen="Log in to cloud.retest.de" title="Log in to cloud.retest.de">
 			<identifyingAttributes>
@@ -24,6 +24,10 @@
 			</identifyingAttributes>
 			<attributes>
 				<attributes>
+					<entry>
+						<key>background-image</key>
+						<value xsi:type="xsd:string">linear-gradient(360deg, rgb(233, 251, 207) 10%, rgb(29, 125, 142) 360%)</value>
+					</entry>
 					<entry>
 						<key>box-sizing</key>
 						<value xsi:type="xsd:string">border-box</value>
@@ -69,8 +73,24 @@
 				<attributes>
 					<attributes>
 						<entry>
+							<key>background-attachment</key>
+							<value xsi:type="xsd:string">fixed</value>
+						</entry>
+						<entry>
 							<key>background-image</key>
-							<value xsi:type="xsd:string">linear-gradient(360deg, rgb(233, 251, 207) 10%, rgb(29, 125, 142) 360%)</value>
+							<value xsi:type="xsd:string">url(&quot;https://sso.prod.cloud.retest.org/auth/resources/eowj1/login/retest/img/keycloak-bg.png&quot;)</value>
+						</entry>
+						<entry>
+							<key>background-position</key>
+							<value xsi:type="xsd:string">50% 50%</value>
+						</entry>
+						<entry>
+							<key>background-repeat</key>
+							<value xsi:type="xsd:string">no-repeat</value>
+						</entry>
+						<entry>
+							<key>background-size</key>
+							<value xsi:type="xsd:string">cover</value>
 						</entry>
 						<entry>
 							<key>border-bottom-color</key>
@@ -156,6 +176,10 @@
 							<entry>
 								<key>left</key>
 								<value xsi:type="xsd:string">592.5px</value>
+							</entry>
+							<entry>
+								<key>padding-top</key>
+								<value xsi:type="xsd:string">20px</value>
 							</entry>
 							<entry>
 								<key>position</key>
@@ -265,10 +289,6 @@
 								<entry>
 									<key>padding-right</key>
 									<value xsi:type="xsd:string">40px</value>
-								</entry>
-								<entry>
-									<key>padding-top</key>
-									<value xsi:type="xsd:string">20px</value>
 								</entry>
 								<entry>
 									<key>shown</key>
@@ -2649,7 +2669,7 @@
 									</entry>
 									<entry>
 										<key>margin-bottom</key>
-										<value xsi:type="xsd:string">30px</value>
+										<value xsi:type="xsd:string">10px</value>
 									</entry>
 									<entry>
 										<key>shown</key>
@@ -2691,10 +2711,6 @@
 										<entry>
 											<key>line-height</key>
 											<value xsi:type="xsd:string">26.4px</value>
-										</entry>
-										<entry>
-											<key>margin-bottom</key>
-											<value xsi:type="xsd:string">10px</value>
 										</entry>
 										<entry>
 											<key>margin-top</key>
@@ -2909,7 +2925,7 @@
 													</entry>
 													<entry>
 														<key>src</key>
-														<value xsi:type="xsd:string">/auth/resources/7.0.0/login/retest/img/logo.svg</value>
+														<value xsi:type="xsd:string">/auth/resources/eowj1/login/retest/img/logo.svg</value>
 													</entry>
 													<entry>
 														<key>vertical-align</key>

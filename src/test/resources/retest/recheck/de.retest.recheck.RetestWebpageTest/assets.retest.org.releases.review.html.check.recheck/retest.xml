@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.6.0-beta.4" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
+<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.8.0" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
 	<data xsi:type="sutState">
 		<descriptors retestId="html" screenId="1" screen="Download review | retest – Making test automation painless and intelligent" title="Download review | retest – Making test automation painless and intelligent">
 			<identifyingAttributes>
@@ -1208,7 +1208,7 @@
 							</entry>
 							<entry>
 								<key>min-height</key>
-								<value xsi:type="xsd:string">calc(100% + -288px)</value>
+								<value xsi:type="xsd:string">calc(100% - 288px)</value>
 							</entry>
 							<entry>
 								<key>padding-bottom</key>
@@ -1514,7 +1514,7 @@
 												</attribute>
 												<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/a[3]</attribute>
 												<attribute key="suffix" xsi:type="suffixAttribute">3</attribute>
-												<attribute key="text" xsi:type="textAttribute">Download review 1.5.0 for all platforms</attribute>
+												<attribute key="text" xsi:type="textAttribute">Download review 1.8.0 for all platforms</attribute>
 												<attribute key="type" xsi:type="stringAttribute">a</attribute>
 											</attributes>
 										</identifyingAttributes>
@@ -1598,7 +1598,7 @@
 												</entry>
 												<entry>
 													<key>href</key>
-													<value xsi:type="xsd:string">review/review-1.5.0.zip</value>
+													<value xsi:type="xsd:string">review/review-1.8.0.zip</value>
 												</entry>
 												<entry>
 													<key>padding-bottom</key>
@@ -1695,7 +1695,7 @@
 												</entry>
 												<entry>
 													<key>href</key>
-													<value xsi:type="xsd:string">review/review-1.5.0.zip</value>
+													<value xsi:type="xsd:string">review/review-1.8.0.zip</value>
 												</entry>
 												<entry>
 													<key>outline-color</key>
@@ -1850,7 +1850,7 @@
 												</attribute>
 												<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/a[2]</attribute>
 												<attribute key="suffix" xsi:type="suffixAttribute">2</attribute>
-												<attribute key="text" xsi:type="textAttribute">Download review 1.5.0 for Windows</attribute>
+												<attribute key="text" xsi:type="textAttribute">Download review 1.8.0 for Windows</attribute>
 												<attribute key="type" xsi:type="stringAttribute">a</attribute>
 											</attributes>
 										</identifyingAttributes>
@@ -1934,7 +1934,7 @@
 												</entry>
 												<entry>
 													<key>href</key>
-													<value xsi:type="xsd:string">review/review-1.5.0-win.zip</value>
+													<value xsi:type="xsd:string">review/review-1.8.0-win.zip</value>
 												</entry>
 												<entry>
 													<key>padding-bottom</key>
@@ -2070,7 +2070,7 @@
 													</attribute>
 													<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/small[1]/code[1]</attribute>
 													<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
-													<attribute key="text" xsi:type="textAttribute">5d4bfafdcd46de39f38df92ce6df9e4d22c639643845b080780eed0ab827dcf6</attribute>
+													<attribute key="text" xsi:type="textAttribute">90024fe4fc34d4d2891fcc4888947a472af7df9824be0ddaabbf7fe90a5fddc2</attribute>
 													<attribute key="type" xsi:type="stringAttribute">code</attribute>
 												</attributes>
 											</identifyingAttributes>
@@ -2322,7 +2322,7 @@
 													</attribute>
 													<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/main[1]/article[1]/div[1]/div[1]/div[1]/small[2]/code[1]</attribute>
 													<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
-													<attribute key="text" xsi:type="textAttribute">caeda8592e955d53cdef4c5fda2cb0e5bb05231f03254a42f6a71c39fbf85073</attribute>
+													<attribute key="text" xsi:type="textAttribute">fb0b32adc9cc3e94b97f2dd925acb139a1713b4a49acaaebee2af7c3ca9522b1</attribute>
 													<attribute key="type" xsi:type="stringAttribute">code</attribute>
 												</attributes>
 											</identifyingAttributes>
