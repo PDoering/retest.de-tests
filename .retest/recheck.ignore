@@ -15,6 +15,7 @@
 # Ignore visible attributes:
 attribute=absolute-outline
 attribute=outline
+attribute=style
 
 # Ignore non-visible attributes:
 attribute=class
@@ -23,32 +24,66 @@ attribute-regex=data-.*
 attribute=jsdata
 attribute=jsaction
 attribute=cd_frame_id_
+attribute-regex=margin-.*
+attribute-regex=border-.*-width
+attribute-regex=border-.*-style
+attribute=line-height
+attribute=quotes
+matcher: type=meta, attribute-regex=.*
 
 # Ignore pixel diffs up to 5 pixels:
 pixel-diff=5.0
 
+matcher: type=div, pixel-diff=20.0
+
 # Ignore all meta elements
 matcher: type=meta, attribute-regex: .*
-matcher: type=section, attribute: opacity
-matcher: type=section, attribute: transform
+matcher: type=section, attribute=opacity
+matcher: type=section, attribute=transform
 
 # Ignore iframes
+matcher: type=iframe, attribute=name
+matcher: type=iframe, attribute=src
 matcher: xpath=html[1]/body[1]/div[3]/iframe[1]
 matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]
 matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/iframe[1]
 matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]
 matcher: xpath=html[1]/body[1]/main[1]/section[2]/div[1]/div[1]/div[2]/iframe[1]
+matcher: xpath=html[1]/body[1]/div[2]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]
+matcher: xpath=html[1]/body[1]/div[2]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/iframe[1]/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[2]
+matcher: xpath=html[1]/body[1]/div[4]/div[2]/iframe[1]/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]
+matcher: xpath=html[1]/body[1]/div[4]/div[2]/iframe[1]/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/textnode[1]
 
 # Ignore generated attributes of login dashboard
-matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1], attribute: href
-matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/a[1], attribute: href
-matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/a[1], attribute: href
-matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/form[1], attribute: action
-matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/form[1]/div[3]/div[2]/span[1]/a[1], attribute: href
-matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/a[1], attribute: href
+matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1], attribute=href
+matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[2]/a[1], attribute=href
+matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/a[1], attribute=href
+matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/form[1], attribute=action
+matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/form[1]/div[3]/div[2]/span[1]/a[1], attribute=href
+matcher: xpath=html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/a[1], attribute=href
 
 # Ignore changing attributes
-matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1], attribute: id
-matcher: xpath=html[1]/body[1]/footer[1]/div[2], attribute: transform
-matcher: xpath=html[1]/body[1]/footer[1]/div[2], attribute: opacity
+matcher: xpath=html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1], attribute=id
+matcher: xpath=html[1]/body[1]/footer[1]/div[2], attribute=transform
+matcher: xpath=html[1]/body[1]/footer[1]/div[2], attribute=opacity
 
+# Ignore changing player uid, hbstform
+matcher: retestid=player_uid_6825
+matcher: retestid=player_uid_6715
+matcher: retestid=player_uid_2586
+matcher: retestid=player_uid_7540
+matcher: retestid=player_uid_2891
+matcher: retestid=hbsptform158696
+matcher: retestid=hbsptform158696-1
+
+# Ignore changes in hubspotmessages
+matcher: retestid=hubspotmessages
+
+# Ignore recaptcha
+matcher: id=target
+matcher: retestid=bicycles
+matcher: retestid=click_verify
+
+
+# Ignore background color diffs
+matecher: recheckid=div-10, attribute=background-color
