@@ -16,7 +16,6 @@ public class WebPageFactory {
 				"https://retest.de/rehub", //
 				"https://retest.de/review", //
 				"https://retest.de/ai-based-test-generation/", //
-				"https://retest.de/demo-req/", //
 				"https://retest.de/faqs", //
 				"https://retest.de/supported-os-devices/", //
 				"https://retest.de/cross-browser-testing/", //
