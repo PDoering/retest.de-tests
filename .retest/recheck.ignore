@@ -12,6 +12,9 @@
 # More details and examples can be found here:
 # https://retest.github.io/docs/recheck/how-ignore-works/
 
+# Ignore insertions
+change=inserted
+
 # Ignore visible attributes:
 attribute=absolute-outline
 attribute=outline
@@ -35,6 +38,7 @@ matcher: type=meta, attribute-regex=.*
 pixel-diff=5.0
 
 matcher: type=div, pixel-diff=20.0
+matcher: type=img, pixel-diff=50.0
 
 # Ignore all meta elements
 matcher: type=meta, attribute-regex: .*
