@@ -13,12 +13,6 @@ public class TestUtils {
 						"--window-size=1200,800" );
 	}
 
-	public static RecheckOptions getRecheckOptions() {
-		return RecheckOptions.builder() //
-				.enableReportUpload() //
-				.build();
-	}
-
 	public static String getTestName( final String link ) {
 		return link.substring( link.indexOf( "//" ) + 2 ).replaceAll( "[\\/\\-]", "." );
 	}

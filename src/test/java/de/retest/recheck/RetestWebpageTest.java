@@ -1,7 +1,6 @@
 package de.retest.recheck;
 
 import static de.retest.recheck.util.TestUtils.getChromeOptions;
-import static de.retest.recheck.util.TestUtils.getRecheckOptions;
 import static de.retest.recheck.util.TestUtils.getTestName;
 
 import org.junit.jupiter.api.AfterAll;
@@ -20,7 +19,7 @@ class RetestWebpageTest {
 	static void setup() {
 		driver = new ChromeDriver( getChromeOptions() );
 
-		re = new RecheckImpl( getRecheckOptions() );
+		re = new RecheckImpl();
 	}
 
 	@ParameterizedTest
